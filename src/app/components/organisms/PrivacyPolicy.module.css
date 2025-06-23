@@ -1,0 +1,10 @@
+.privacyContent {
+  padding: 48px;
+  background-color: white;
+}
+
+.header,
+.textContent {
+  color: black;
+  padding: 12px;
+}

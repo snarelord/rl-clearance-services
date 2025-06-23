@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logoBox {
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.logoText {
+  font-size: 32px;
+  font-weight: 900;
+  color: black;
+  line-height: 1;
+}
+
+.textContainer {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.line {
+  line-height: 1.2;
+}

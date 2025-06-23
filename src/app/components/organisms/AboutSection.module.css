@@ -1,0 +1,25 @@
+.section {
+  background-color: #f3f4f6;
+  padding: 64px 24px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: black;
+}
+
+.content {
+  color: #374151;
+  line-height: 1.6;
+}
+
+.paragraph {
+  margin-bottom: 16px;
+}

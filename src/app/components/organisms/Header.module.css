@@ -1,0 +1,22 @@
+.header {
+  background: #252853;
+  padding: 30px 24px;
+  position: relative;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navSection {
+  position: absolute;
+  left: 50%;
+  bottom: -59px;
+  transform: translateX(-50%);
+  z-index: 10;
+}
