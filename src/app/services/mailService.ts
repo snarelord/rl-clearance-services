@@ -1,3 +1,5 @@
+import * as nodemailer from "nodemailer";
+
 // send contact info/details to ryans email
 // make sure ryan's email is set up and provides me with Gmail details (one time password etc)
 // nodemailer
