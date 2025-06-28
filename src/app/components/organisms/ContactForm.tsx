@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactEventHandler, useRef } from "react";
+import { useRef } from "react";
 import styles from "./ContactForm.module.css";
 
 export default function ContactForm() {

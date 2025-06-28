@@ -9,7 +9,9 @@ export default function Footer() {
           © 2024 RL Clearance Services | Contact: 07123456789 | Bristol & Surrounding Areas | Fully Licensed & Insured |
           Environmental Waste Disposal
         </p>
-        <NavLinkFooter href="/privacyPolicy">Privacy Policy</NavLinkFooter>
+        <div className={styles.privacyPolicy}>
+          <NavLinkFooter href="/privacyPolicy">Privacy Policy</NavLinkFooter>
+        </div>
       </div>
     </footer>
   );

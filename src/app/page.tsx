@@ -3,6 +3,7 @@ import HeroSection from "./components/organisms/HeroSection";
 import ServicesSection from "./components/organisms/ServicesSection";
 import ContactForm from "./components/organisms/ContactForm";
 import AboutSection from "./components/organisms/AboutSection";
+import Gallery from "./components/organisms/Gallery";
 import Footer from "./components/organisms/Footer";
 
 export default function HomePage() {
@@ -11,8 +12,9 @@ export default function HomePage() {
       <Header />
       <HeroSection />
       <ServicesSection />
-      <ContactForm />
       <AboutSection />
+      <Gallery />
+      <ContactForm />
       <Footer />
     </div>
   );

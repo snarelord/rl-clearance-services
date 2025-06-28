@@ -1,0 +1,17 @@
+.header {
+  background-color: white;
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+  padding-top: 12px;
+}
+
+.galleryContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: white;
+}

@@ -8,8 +8,8 @@ interface NavLinkProps {
 
 export default function NavLink({ href, children }: NavLinkProps) {
   return (
-    <Link href={href} className={styles.navLink}>
-      {children}
-    </Link>
+    <u className={styles.navLink}>
+      <Link href={href}>{children}</Link>
+    </u>
   );
 }
